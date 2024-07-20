@@ -1,0 +1,42 @@
+6.Chef
+//chef.java
+
+Package restaurant;
+public class Chef {
+    private int chefID;
+    private String name;
+    private String specialty;
+
+    public Chef(int chefID, String name, String specialty) {
+        this.chefID = chefID;
+        this.name = name;
+        this.specialty = specialty;
+    }
+
+    public int getChefID() {
+        return chefID;
+    }
+
+    public void setChefID(int chefID) {
+        this.chefID = chefID;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSpecialty() {
+        return specialty;
+    }
+
+    public void setSpecialty(String specialty) {
+        this.specialty = specialty;
+    }
+ }
+
+
+
