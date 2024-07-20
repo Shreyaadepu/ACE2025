@@ -1,0 +1,58 @@
+5.Order
+//order.java
+Package restaurant;
+public class Order {
+    private int orderID;
+    private int tableID;
+    private int menuID;
+    private int quantity;
+    private String status;
+
+    public Order(int orderID, int tableID, int menuID, int quantity, String status) {
+        this.orderID = orderID;
+        this.tableID = tableID;
+        this.menuID = menuID;
+        this.quantity = quantity;
+        this.status = status;
+    }
+
+    public int getOrderID() {
+        return orderID;
+    }
+
+    public void setOrderID(int orderID) {
+        this.orderID = orderID;
+    }
+
+    public int getTableID() {
+        return tableID;
+    }
+
+    public void setTableID(int tableID) {
+        this.tableID = tableID;
+    }
+
+    public int getMenuID() {
+        return menuID;
+    }
+
+    public void setMenuID(int menuID) {
+        this.menuID = menuID;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+}
