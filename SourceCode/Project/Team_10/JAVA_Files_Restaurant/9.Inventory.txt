@@ -1,0 +1,53 @@
+
+9.Inventory
+//inventory
+
+
+Package restaurant;
+import java.time.LocalDate;
+
+public class Inventory {
+    private int inventoryID;
+    private int ingredientID;
+    private int quantity;
+    private LocalDate lastUpdated;
+
+    public Inventory(int inventoryID, int ingredientID, int quantity, LocalDate lastUpdated) {
+        this.inventoryID = inventoryID;
+        this.ingredientID = ingredientID;
+        this.quantity = quantity;
+        this.lastUpdated = lastUpdated;
+    }
+
+    public int getInventoryID() {
+        return inventoryID;
+    }
+
+    public void setInventoryID(int inventoryID) {
+        this.inventoryID = inventoryID;
+    }
+
+    public int getIngredientID() {
+        return ingredientID;
+    }
+
+    public void setIngredientID(int ingredientID) {
+        this.ingredientID = ingredientID;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public LocalDate getLastUpdated() {
+        return lastUpdated;
+    }
+
+    public void setLastUpdated(LocalDate lastUpdated) {
+        this.lastUpdated = lastUpdated;
+    }
+}
