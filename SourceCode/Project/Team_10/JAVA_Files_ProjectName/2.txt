@@ -1,0 +1,50 @@
+2.Reservation
+//reservation.java
+Package restaurant;
+import java.time.LocalDate;
+import java.time.LocalTime;
+
+public class Reservation {
+    private int reservationID;
+    private int tableID;
+    private LocalDate date;
+    private LocalTime time;
+
+    public Reservation(int reservationID, int tableID, LocalDate date, LocalTime time) {
+        this.reservationID = reservationID;
+        this.tableID = tableID;
+        this.date = date;
+        this.time = time;
+    }
+
+    public int getReservationID() {
+        return reservationID;
+    }
+
+    public void setReservationID(int reservationID) {
+        this.reservationID = reservationID;
+    }
+
+    public int getTableID() {
+        return tableID;
+    }
+
+    public void setTableID(int tableID) {
+        this.tableID = tableID;
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
+    }
+
+    public LocalTime getTime() {
+        return time;
+    }
+
+    public void setTime(LocalTime time) {
+        this.time = time;
+    }}
